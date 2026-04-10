@@ -1,0 +1,53 @@
+/* Reset a bit */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #444;
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Card-like containers */
+div {
+  margin-bottom: 10px;
+}
+
+/* Data box */
+div > p {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Dropdown */
+select {
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
